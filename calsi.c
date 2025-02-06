@@ -1,15 +1,15 @@
 #include <stdio.h>
 
 int main() {
-    int num1, num2;
+    double num1, num2;
 
     printf("Enter first number: ");
-    scanf("%d", &num1);
+    scanf("%ld", &num1);
 
     printf("Enter second number: ");
-    scanf("%d", &num2);
+    scanf("%ld", &num2);
 
-    printf("You entered: %d and %d\n", num1, num2);
+    printf("You entered: %ld and %ld\n", num1, num2);
 
     return 0;
 }
